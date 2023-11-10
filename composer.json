@@ -1,5 +1,5 @@
 {
-    "version": "1.0.0",
+    "version": "1.0.1",
     "name": "bypikod/php-test",
     "description": "Very simple testing library with PHP",
     "type": "project",
