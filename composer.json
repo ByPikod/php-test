@@ -1,0 +1,31 @@
+{
+    "version": "1.0.0",
+    "name": "bypikod/php-test",
+    "description": "Very simple testing library with PHP",
+    "type": "project",
+    "license": "MIT",
+    "keywords": ["php", "test", "unit", "suite"],
+    "authors": [
+        {
+            "name": "Yahya Batulu",
+            "email": "admin@yahyabatulu.com"
+        }
+    ],
+    "source": {
+        "url": "https://github.com/ByPikod/php-test",
+        "type": "git",
+        "reference": "master"
+    },
+    "support": {
+        "email": "admin@yahyabatulu.com",
+        "source": "https://github.com/ByPikod/php-test",
+        "issues": "https://github.com/ByPikod/php-test/issues"
+    },
+    "homepage": "https://github.com/ByPikod/php-test#readme",
+    "bin": "bin",
+    "autoload": {
+        "classmap": [
+            "src/"
+        ]
+    }
+}
