@@ -1,8 +1,8 @@
 <?php
 
-namespace Lib\Testing;
+namespace PHPTest;
 
-use Lib\Testing\AssertionError;
+use PHPTest\AssertionError;
 
 const TEST_PASSED = "[\u{2713}] Test passed: %s\n";
 

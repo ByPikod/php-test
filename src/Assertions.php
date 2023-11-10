@@ -1,6 +1,6 @@
 <?php
 
-namespace Lib\Testing;
+namespace PHPTest;
 
 /**
  * Assertions class

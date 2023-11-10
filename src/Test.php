@@ -1,8 +1,8 @@
 <?php
 
-namespace Lib\Testing;
+namespace PHPTest;
 
-use Lib\Testing\AssertionError;
+use PHPTest\AssertionError;
 use ReflectionClass;
 
 const TEXT_SUITE_TEST_RESULT = <<<EOD
