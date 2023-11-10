@@ -25,6 +25,8 @@ composer require bypikod/php-test
 Basic Test:
 
 ```php
+use PHPTest\Test;
+
 Test::it("test", function (Test $test) {
     $test->assertEqual(1, 2);
 });
@@ -33,6 +35,8 @@ Test::it("test", function (Test $test) {
 Suite Test:
 
 ```php
+use PHPTest\Test;
+
 Test::suite("test", function ($it) {
     $it("test", function (Test $test) {
         $test->assertEqual(1, 1);
@@ -46,6 +50,8 @@ Test::suite("test", function ($it) {
 Suite Test with Class:
 
 ```php
+use PHPTest\Test;
+
 class RouterTest extends Router
 {
     /**
